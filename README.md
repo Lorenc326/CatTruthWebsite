@@ -1,3 +1,2 @@
-In this repository I keep my training projects. 
-
-It's not big yet, but i'm in the process)
+In this repository I keep my training project. 
+original website: http://www.pravda.com.ua/

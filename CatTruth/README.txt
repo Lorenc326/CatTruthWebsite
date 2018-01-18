@@ -1,1 +1,0 @@
-original website: http://www.pravda.com.ua/
