@@ -1,0 +1,12 @@
+.main{
+    max-width: 1175px;
+    margin: 0 auto;
+}
+.aside_l{
+    width: 320px;
+    margin-right: 2%;
+    box-sizing: border-box;
+    float: left;
+    background: #484848;
+    height: 1000px;
+}

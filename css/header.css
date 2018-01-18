@@ -111,6 +111,7 @@ a{
     padding: 15px 0;
     min-height: 72px;
     border-top: #9c0000 5px solid;
+    margin-bottom: 30px;
 }
 .slider {
     max-width: 1175px;
@@ -122,6 +123,7 @@ a{
     width: 95%;
     overflow: hidden;
     padding: 0;
+    position: relative;
 }
 .images {
     height: 60px;
@@ -137,6 +139,16 @@ a{
     display: inline-block;
     width: 350px;
 }
+.gallery figure a:hover{
+    opacity: 0.7;
+}
+.images figure:nth-child(3n-1){
+    margin-left: 6px;
+    margin-right: 17px;
+    border-left: #606060 1px solid;
+    border-right: #606060 1px solid;
+    padding-left: 17px;
+}
 .gallery img {
     display: block;
     margin: 0 auto;
@@ -150,10 +162,9 @@ a{
     float: left;
     height: 65px;
     width: 230px;
-    text-align: center;
-    color: #520000;
-    font-size: 100%;
-    background: white;
+    color: #f6f6f6;
+    font-size: 12pt;
+    padding-left: 10px;
 }
 
 /* Buttons left and right */

@@ -1,4 +1,4 @@
-let width = 350;
+let width = 370;
 let count = 3;
 
 let slider = document.getElementById('slider');
