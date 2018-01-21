@@ -22,6 +22,10 @@ a{
 .nav_h li{
     padding: 0 10px;
 }
+.nav_h li:hover{
+    color:#520000;
+    transition: color 0.5s;
+}
 .n_h_1{
     color: #959595;
     font-size: 70%;
@@ -139,8 +143,8 @@ a{
     display: inline-block;
     width: 350px;
 }
-.gallery figure a:hover{
-    opacity: 0.7;
+.opacity:hover{
+    opacity: 0.8;
 }
 .images figure:nth-child(3n-1){
     margin-left: 6px;
@@ -165,6 +169,7 @@ a{
     color: #f6f6f6;
     font-size: 12pt;
     padding-left: 10px;
+    font-weight: bold;
 }
 
 /* Buttons left and right */
