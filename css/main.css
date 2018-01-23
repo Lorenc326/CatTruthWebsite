@@ -6,8 +6,8 @@
 
 /* Left news aside block */
 .news{
-    width: 330px;
-    margin-right: 2%;
+    width: 28%;
+    margin-right: 1%;
     box-sizing: border-box;
     float: left;
 }
@@ -92,4 +92,128 @@
     color: #262626;
     font-weight: bold;
     margin-left: 35px;
+}
+
+
+
+
+
+/* Center publications block */
+
+/* Upper first publication */
+.sec_center{
+    width: 41%;
+    float: left;
+    padding-left: 1.5%;
+    border-left: #bfbfbf solid 1px;
+}
+.publication_img{
+    margin-bottom: 8px;
+}
+.pub_tittle{
+    font-size: 28px;
+    line-height: 1.05;
+    padding: 7px 0 5px 0;
+    font-weight: normal;
+}
+.pub_tittle:hover{
+    color: #9c0000;
+    transition: color 0.5s;
+}
+.pub_text{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    line-height: 1.2;
+}
+.pub_time{
+    font-family: Arial,sans-serif;
+    font-size: 10px;
+    color: #888;
+    text-transform: uppercase;
+}
+
+
+/* Main publications */
+/* Head */
+.pub_head{
+    border-top: #900022 1px solid;
+    padding-top: 9px;
+    margin: 20px 0 7px 0;
+}
+.pub_right{
+    color: #888;
+    margin-left: 12px;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    float: right;
+}
+.pub_right:hover{
+    color: #900022;
+    transition: color 0.5s;
+}
+.pub_left{
+    font-size: 18px;
+    line-height: 1.24em;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #900022;
+}
+.pub_left:hover{
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+/* Main publications */
+.pub_article{
+    border-top: #dadada 1px solid;
+    overflow: hidden;
+    padding-top: 15px;
+    margin-top: 11px;
+}
+.pub_article:nth-child(1){
+    padding-top:0;
+    border-top: 0;
+    margin-top: 0;
+}
+.pub_article_img{
+    width: 185px;
+    height: 114px;
+    float: left;
+    margin: 0 15px 5px 0 ;
+}
+.pub_article_tittle{
+    font-size: 19px;
+    line-height: 1.1;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+.pub_article_tittle:hover{
+    color: #9c0000;
+    transition: color 0.5s;
+}
+.pub_article_text{
+    font-size: 14px;
+    margin: 0 0 6px 0;
+    line-height: 1.2;
+}
+.pub_button{
+    display: block;
+    border: #d7d7d7 1px solid;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #950023;
+    padding: 14px 15px;
+    margin-top: 25px;
+}
+.pub_button:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.pub_button span{
+    font-size: 20px;
+    line-height: 11px;
+    margin: 1px -7px 0 0;
+    color: #888;
+    float: right;
 }
