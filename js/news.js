@@ -2,6 +2,9 @@ let recentNewsTag = document.getElementsByClassName('rec_news_tag')[0];
 let mainNewsTag = document.getElementsByClassName('main_news_tag')[0];
 let recentNews = document.getElementsByClassName('rec_news');
 
+recentNewsTag.classList.add("rec_news_tag_act");    /// default
+recentNewsTag.classList.remove("rec_news_tag");
+
 mainNewsTag.onclick = function () {
     for(let i = 0; i < recentNews.length; i++){
         recentNews[i].style.display = "none";
